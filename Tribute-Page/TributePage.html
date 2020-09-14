@@ -5,39 +5,77 @@
             #main {
                 padding: 20px;
                 margin: 10px;
-                background-color: lightgray;
+                margin-top: 48px;
+                background-color: rgb(234, 234, 234);
                 text-align: center;
             }
 
+            #main div {
+                
+                margin: auto;
+                width: 80%;
+                padding: 20px;
+            }
+
             #title {
+                margin-top: 24px;
                 font-size: 48px;
                 text-align: center;
             }
 
+            #sub-title {
+                margin-bottom: 24px;
+                font-size: 20px;
+            }
+
             #img-div {
                 background-color: white;
-                padding: 20px;
-                margin: auto;
-                width: 80%;
                 text-align: center;
             }
 
             #img {
                 max-width: 95%;
-                padding: 20px;
                 display: block;
                 margin: auto;
+
+                border: 3px solid black;
+            }
+
+
+            #tribute-info li {
+                line-height: 24px;
+                text-align: left;
+                width: 60%;
+                margin: auto;
+                padding: 18px;
+            }
+
+            h2 {
+                font-size: 28px;
             }
         </style>
     </head>
     <body>
         <main id="main"> 
             <h1 id="title">Junji Ito</h1>
-            <p>"I am a horror maniac who prefers to stay at home"</p>
-        <div id="img-div">
-            <img id="img" src="header-image.jpg">
-            <p id="caption">A page from Ito's best-known work, <em>Uzumaki</em></p>
-        </div>
+            <p id="sub-title">"I am a horror maniac who prefers to stay at home"</p>
+            <div id="img-div">
+                <img id="img" src="header-image.jpg">
+                <p id="caption"><em>Uzumaki</em> (pg. 20)</p>
+            </div>
+            <div id="tribute-info">
+                <h2>Timeline</h2>
+                    <ul>
+                        <li>1963 - Born in Sakashita, Japan (now Nakatsugawa, Gifu, Japan)</li>
+                        <li>1984 - Begins creating manga as a hobby in 1984, while working as a dental technician</li>
+                        <li>1987 - Itō's first published work, <em>Tomie</em>, begins serialization</li>
+                        <li>1992 - The first film adaptation of Itō's work is released</li>
+                        <li>1998 - <em>Uzumaki</em></li>
+                    </ul>
+                <h2>Notable Works</h2>
+
+                <h2>Awards</h2>
+            </div>
         </main>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     </body>
