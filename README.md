@@ -1,1 +1,3 @@
-A collection of my freecodecamp projects
+Repo for the freecodeacademy project "Tribute Page"
+
+Simple version
